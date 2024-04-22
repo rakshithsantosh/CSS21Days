@@ -21,3 +21,16 @@ body{
     /*dont give width of the child element more than the parent as it would cause overflow alwasy work in percentages here as well*/
     width:50%;
 }
+
+/* EM and REM
+
+em is relative to the font size of the parent element
+rem is relative to the font size of the root element
+
+root element is the html element in some case root element can be declared by usinf :root 
+
+never use em for font size instead use rem
+but for padding and margin use em as its response 
+and in this case it references the font size of the current element
+
+*/
