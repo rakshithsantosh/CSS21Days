@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.parent{
+    background-color: blue;
+    width:80%;
+    /* always use % in css as it does not assign a specific size to the element work in percentage to keep the responsive ness of the page*/
+    margin: 0px auto;
+    padding: 50px;
+}
+
+.child{
+    background-color: aqua;
+    padding:5em;
+    /*aviod using height as it is not good for responsive design and might again cause overflow issues instead use padding */
+    /*dont give width of the child element more than the parent as it would cause overflow alwasy work in percentages here as well*/
+    width:50%;
+}
