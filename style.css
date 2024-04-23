@@ -20,6 +20,9 @@ body{
     /*aviod using height as it is not good for responsive design and might again cause overflow issues instead use padding */
     /*dont give width of the child element more than the parent as it would cause overflow alwasy work in percentages here as well*/
     width:50%;
+    max-width:700px;
+    /*As we saw, setting a fixed width on an element tends to be a bad idea. Instead we can use percentages, which make our lives easier.
+    The only issue with this is, at large screens, things can get too big. Thankfully, we have max-width that can help us out!*/
 }
 
 /* EM and REM
